@@ -8,3 +8,4 @@ pub enum SnippetError {
     #[error("snippet not found")]
     NotFound,
 }
+//Для pull request

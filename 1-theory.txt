@@ -17,3 +17,4 @@
 9. &String is a reference to a String object, &str is a reference to a string fragment. Thick pointers store the address + length (&str, &[u8]), thin pointers store only the address (&String, &Vec).
 
 10. Static dispatch in Rust means the compiler knows the exact type and method implementations at compile time (via generics/impl Trait), allowing direct calls with no runtime overhead. Dynamic dispatch defers choosing the concrete implementation until runtime (using trait objects like &dyn Trait or Box<dyn Trait>), which adds some overhead but lets you work with types not known at compile time.
+Для pull request
