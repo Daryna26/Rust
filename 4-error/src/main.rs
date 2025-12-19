@@ -21,5 +21,8 @@ fn run() -> Result<(), AppError> {
     println!("Found snippet: {}", snippet.content);
 
     storage.save()?;
-    Ok(())
+ 
+   Ok(())
 }
+//Для pull request
+

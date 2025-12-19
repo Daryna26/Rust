@@ -13,3 +13,4 @@ println!("Declarative: {:?}", declarative_map);
 let procedural_map = procedural_btreemap!("x", 10, "y", 20);
 println!("Procedural: {:?}", procedural_map);
 }
+//Для pull request
